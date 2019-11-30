@@ -9,7 +9,7 @@ def square_array(numbers)
   counter = 0
   new_array = []
   while numbers[counter] do
-    counter += 1
     return numbers[counter]**2
+    counter += 1
   end
 end
