@@ -4,7 +4,7 @@
 #returs new_array
 #square_array(numbers)
 
-numbers = [1,2,3]
+
 def square_array(numbers)
   counter = 0
   new_array = []
