@@ -10,5 +10,6 @@ def square_array(numbers)
   new_array = []
   while numbers[counter] do
     counter += 1
+    return numbers[counter]**2
   end
 end
