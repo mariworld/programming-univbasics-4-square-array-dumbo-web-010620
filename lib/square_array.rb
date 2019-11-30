@@ -7,9 +7,10 @@
 
 def square_array(numbers)
   counter = 0
+  new_array = []
   while array[counter] do
-    sqrd_numbers = numbers[counter]**2
-    
+    numbers[counter]**2
+    new_array 
     counter += 1
   end
 end
