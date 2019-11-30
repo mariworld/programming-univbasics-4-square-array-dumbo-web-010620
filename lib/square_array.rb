@@ -12,5 +12,6 @@ def square_array(numbers)
     numbers[counter]**2
     new_array << numbers[counter]
     counter += 1
+    return new_array
   end
 end
