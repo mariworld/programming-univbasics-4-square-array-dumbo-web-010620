@@ -9,9 +9,9 @@ def square_array(numbers)
   counter = 0
   new_array = []
   while numbers[counter] do
-    counter += 1
     sqrd_nums = numbers[counter]**2
     new_array << sqrd_nums
-    return new_array
+    counter += 1
   end
+  return new_array
 end
