@@ -7,9 +7,9 @@
 
 def square_array(numbers)
   counter = 0
-  new_array = []
-  while numbers[counter] do
-    return numbers[counter]**2
+  while array[counter] do
+    sqrd_numbers = numbers[counter]**2
+    
     counter += 1
   end
 end
